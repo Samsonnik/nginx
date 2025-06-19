@@ -1,0 +1,11 @@
+helm:
+  parameters:
+  - name: image.repository
+    value: nexus-repo.zapto.org/repository/docker-repo/front
+    forcestring: false
+  - name: image.tag
+    value: v1.0.1
+    forcestring: true
+  - name: image.name
+    value: nexus-repo.zapto.org/repository/docker-repo/front
+    forcestring: true
