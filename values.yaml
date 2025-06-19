@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  tag: "latest"
+  repository: nexus-repo.zapto.org/repository/docker-repo/front
+  tag: "auto"
   pullPolicy: Always
 
 service:
