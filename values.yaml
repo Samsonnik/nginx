@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: nexus-repo.zapto.org/repository/docker-repo/front
-  tag: "auto"
+  tag: "01"
   pullPolicy: Always
 
 service:
