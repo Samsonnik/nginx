@@ -4,7 +4,7 @@ helm:
     value: nexus-repo.zapto.org/repository/docker-repo/front
     forcestring: false
   - name: image.tag
-    value: v1.0.4
+    value: v1.0.5
     forcestring: true
   - name: image.name
     value: nexus-repo.zapto.org/repository/docker-repo/front
